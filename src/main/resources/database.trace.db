@@ -1,0 +1,175 @@
+2024-01-23 17:57:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table Sponsor (\000d\000aid integer primary key [*]autoincrement,\000d\000aname text,\000d\000aindustry text\000d\000a\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+create table Sponsor (
+id integer primary key autoincrement,
+name text,
+industry text
+
+) [42001-214]
+2024-01-23 17:58:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table Sponsor (\000d\000aid integer primary key [*]autoincrement,\000d\000aname text,\000d\000aindustry text\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+create table Sponsor (
+id integer primary key autoincrement,
+name text,
+industry text
+) [42001-214]
+2024-01-23 17:58:38 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists Sponsor (\000d\000aid integer primary key [*]autoincrement,\000d\000aname text,\000d\000aindustry text\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+create table if not exists Sponsor (
+id integer primary key autoincrement,
+name text,
+industry text
+) [42001-214]
+2024-01-23 17:59:29 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:00:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:00:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:00:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:01:19 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Event (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    date TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Event (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    date TEXT
+) [42001-214]
+2024-01-23 18:01:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:02:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:03:03 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "-- Create the Sponsor table\000d\000aCREATE TABLE IF NOT EXISTS Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+-- Create the Sponsor table
+CREATE TABLE IF NOT EXISTS Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:04:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:04:55 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:05:12 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:05:58 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]clear table SPONSOR"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+clear table SPONSOR [42001-214]
+2024-01-23 18:07:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Sponsor (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    industry TEXT\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Sponsor (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    industry TEXT
+) [42001-214]
+2024-01-23 18:10:35 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
+INSERT INTO Sponsor (name, industry) VALUES
+(1, 'TechCorp', 'Technology'),
+(2, 'Glamour Inc.', 'Fashion'),
+(3, 'SoundWave Productions', 'Music Production'),
+(4, 'EcoPlanet', 'Environmental Conservation') [21002-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:295)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:575)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:554)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1339)
+	at org.h2.server.web.WebApp.query(WebApp.java:1137)
+	at org.h2.server.web.WebApp.query(WebApp.java:1113)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-01-23 18:11:21 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "tion[*]');"; SQL statement:
+tion'); [42000-214]
